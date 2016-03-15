@@ -1,0 +1,33 @@
+h1 {
+  font-size: 4em; }
+
+header .navbar {
+  border-radius: 0;
+  margin-bottom: 0; }
+header .navbar-default {
+  background-color: #27AD60;
+  border-color: #27AD60;
+  padding: 2% 5%; }
+  header .navbar-default .navbar-nav > li > a {
+    color: white; }
+    header .navbar-default .navbar-nav > li > a:hover {
+      background-color: whitesmoke;
+      color: #27AD60; }
+  header .navbar-default .navbar-collapse {
+    border-color: transparent; }
+  header .navbar-default .navbar-toggle:hover {
+    background-color: whitesmoke; }
+
+.carousel {
+  background-image: url("img/carousel-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2%;
+  color: white; }
+  .carousel h1 {
+    margin-bottom: 4%; }
+  .carousel p {
+    line-height: 35px;
+    font-size: 1.8em; }
+
+/*# sourceMappingURL=main.css.map */

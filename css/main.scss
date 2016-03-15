@@ -1,0 +1,57 @@
+$green: #27AD60;
+$dark: #2C3E50;
+$orange: #E67E22;
+$brown: #8F5F38;
+@mixin caja-color{
+	
+}
+
+h1{
+	font-size: 4em;
+}
+
+header{
+	.navbar{
+		border-radius: 0;
+		margin-bottom: 0;
+	}
+	.navbar-default {
+	    background-color: $green;
+	    border-color: $green;
+	    padding: 2% 5%;
+	    .navbar-nav > li > a{
+	    	color: white;
+	    	&:hover{
+	    		background-color: whitesmoke;
+	    		color: $green;
+	    	}
+	    }
+	    .navbar-collapse{
+	    	border-color: transparent;
+	    }
+	    .navbar-toggle{
+	    	&:hover{
+	    		background-color: whitesmoke;
+	    	}
+	    }
+	}
+}
+
+.carousel{
+	background-image: url("img/carousel-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2%;
+	color: white;
+	h1{
+		margin-bottom: 4%;
+	}
+	p{
+		line-height: 35px;
+		font-size: 1.8em;
+	}
+}
+
+.pallete{
+	
+}
