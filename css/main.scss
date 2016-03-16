@@ -365,7 +365,85 @@ header{
 
 .clients{
 	@extend .price;
-	.t-orange{
-		color: $orange;
+	.parrafo{
+		color: #B0B2B4;
+		font-size: 1.5em;
+		font-style: italic;
+		font-weight: 400;
+		padding: 0% 20%;
+		margin: 5% 0% 2%;
+		.t-orange{
+			color: $orange;
+			font-style: normal;
+		}
+	}
+}
+
+.formulario{
+	@extend .price;
+	form{
+		margin: 4% auto;
+		width: 65%;
+		textarea{
+			height: 150px;
+		}
+		.btn-default{
+			@include boton;
+		}
+		p{
+			&:last-child{
+				text-align: left;
+			}
+		}
+	}	
+}
+
+.image{
+	background-image: url("../img/img-divider-img.jpg");
+	background-position: 30% 35%;
+	height: 20vh;
+}
+.social{
+	background-image: url("../img/img-divider-img.jpg"); 
+	background-size: cover;
+	background-position: 20% 10%;
+	height: 55vh;
+	padding-top: 2%;
+	a{
+		font-size: 7em;
+		margin-right: 1.5%;
+	}
+}
+
+footer{
+	@extend .team;
+	padding: 1% 0%;
+	p{
+		font-size: 1.1em;
+	}
+	.news{
+		.input-group-sm > .input-group-addon{
+			line-height: 0;
+			color: $orange;
+		}
+		button{
+			@include boton;
+			font-size: 1.1em;
+			padding: 2% 3%;
+			margin-top: 6%;
+		}
+	}
+	.last-row{
+		margin-top: 2%;
+		p{
+			float: left;
+			color: $dark;
+			a{
+				margin-left: 5px;
+			}
+		}
+		.back{
+			float: right;
+		}
 	}
 }

@@ -124,33 +124,33 @@ header .navbar-default {
       width: 75%;
       margin-left: 10%; }
 
-.services, .team {
+.services, .team, footer {
   background-color: #27AD60;
   padding: 4% 0%;
   color: white; }
-  .services p, .team p {
+  .services p, .team p, footer p {
     font-weight: 300; }
-  .services h3, .team h3 {
+  .services h3, .team h3, footer h3 {
     font-weight: normal; }
-  .services .bg-gray, .team .bg-gray {
+  .services .bg-gray, .team .bg-gray, footer .bg-gray {
     padding: 12%;
     margin: 3% 0%;
     width: 90%; }
-    .services .bg-gray:hover, .team .bg-gray:hover {
+    .services .bg-gray:hover, .team .bg-gray:hover, footer .bg-gray:hover {
       background: rgba(0, 0, 0, 0.4); }
-      .services .bg-gray:hover h3, .team .bg-gray:hover h3 {
+      .services .bg-gray:hover h3, .team .bg-gray:hover h3, footer .bg-gray:hover h3 {
         color: #E67E22; }
-      .services .bg-gray:hover hr, .team .bg-gray:hover hr {
+      .services .bg-gray:hover hr, .team .bg-gray:hover hr, footer .bg-gray:hover hr {
         border-top: 1px solid white; }
-      .services .bg-gray:hover .bg-icon, .team .bg-gray:hover .bg-icon {
+      .services .bg-gray:hover .bg-icon, .team .bg-gray:hover .bg-icon, footer .bg-gray:hover .bg-icon {
         background-image: none;
         background-color: #8F5F38;
         transform: rotate(45deg); }
-    .services .bg-gray p, .team .bg-gray p {
+    .services .bg-gray p, .team .bg-gray p, footer .bg-gray p {
       color: #98BAA7; }
-    .services .bg-gray hr, .team .bg-gray hr {
+    .services .bg-gray hr, .team .bg-gray hr, footer .bg-gray hr {
       border-top: 1px solid #27AD60; }
-    .services .bg-gray .bg-icon, .team .bg-gray .bg-icon {
+    .services .bg-gray .bg-icon, .team .bg-gray .bg-icon, footer .bg-gray .bg-icon {
       background-image: url("../img/icon-bg.png");
       background-color: #2C3E50;
       width: 120px;
@@ -160,85 +160,85 @@ header .navbar-default {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat; }
-      .services .bg-gray .bg-icon img, .team .bg-gray .bg-icon img {
+      .services .bg-gray .bg-icon img, .team .bg-gray .bg-icon img, footer .bg-gray .bg-icon img {
         width: 80%;
         margin: auto; }
-  .services button, .team button {
+  .services button, .team button, footer button {
     background-color: #443E44;
     border: none;
     font-size: 1.2em;
     padding: 1% 1.5%;
     color: white; }
 
-.team img {
+.team img, footer img {
   width: 70%; }
-.team p, .team h4 {
+.team p, footer p, .team h4, footer h4 {
   font-weight: normal; }
-.team .caja {
+.team .caja, footer .caja {
   padding: 4%; }
-  .team .caja .image-girl {
+  .team .caja .image-girl, footer .caja .image-girl {
     width: 140px;
     height: 140px;
     background-image: url("../img/team/1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     margin: auto; }
-  .team .caja .line-text {
+  .team .caja .line-text, footer .caja .line-text {
     color: #2C3E50; }
-  .team .caja hr {
+  .team .caja hr, footer .caja hr {
     border-top: 1px dashed #98BAA7; }
-  .team .caja p {
+  .team .caja p, footer .caja p {
     font-size: 0.9em;
     color: #98BAA7; }
-  .team .caja .red-social {
+  .team .caja .red-social, footer .caja .red-social {
     font-size: 2em;
     margin-top: 8%; }
-    .team .caja .red-social a {
+    .team .caja .red-social a, footer .caja .red-social a {
       color: #98BAA7; }
-      .team .caja .red-social a:hover {
+      .team .caja .red-social a:hover, footer .caja .red-social a:hover {
         color: whitesmoke; }
 
-.price, .clients {
+.price, .clients, .formulario {
   background-color: #2C3E50;
   color: white;
   font-weight: normal;
   padding: 5% 0%; }
-  .price .green, .clients .green {
+  .price .green, .clients .green, .formulario .green {
     border: 1px solid #27AD60;
     width: 100%;
     margin: 40% 0% 20%; }
-    .price .green:hover, .clients .green:hover {
+    .price .green:hover, .clients .green:hover, .formulario .green:hover {
       border: 1px solid #E67E22;
       transform: translateY(-50px); }
-    .price .green .no-bg td, .clients .green .no-bg td {
+    .price .green .no-bg td, .clients .green .no-bg td, .formulario .green .no-bg td {
       padding: 3%; }
-    .price .green .no-bg:first-child, .clients .green .no-bg:first-child {
+    .price .green .no-bg:first-child, .clients .green .no-bg:first-child, .formulario .green .no-bg:first-child {
       color: #98BAA7;
       font-size: 1.5em; }
-      .price .green .no-bg:first-child td, .clients .green .no-bg:first-child td {
+      .price .green .no-bg:first-child td, .clients .green .no-bg:first-child td, .formulario .green .no-bg:first-child td {
         padding: 5%; }
-    .price .green .bg-brown, .clients .green .bg-brown {
+    .price .green .bg-brown, .clients .green .bg-brown, .formulario .green .bg-brown {
       background-color: #8F5F38; }
-      .price .green .bg-brown td, .clients .green .bg-brown td {
+      .price .green .bg-brown td, .clients .green .bg-brown td, .formulario .green .bg-brown td {
         padding: 3%; }
-      .price .green .bg-brown:first-child, .clients .green .bg-brown:first-child {
+      .price .green .bg-brown:first-child, .clients .green .bg-brown:first-child, .formulario .green .bg-brown:first-child {
         color: #98BAA7;
         font-size: 1.5em; }
-        .price .green .bg-brown:first-child td, .clients .green .bg-brown:first-child td {
+        .price .green .bg-brown:first-child td, .clients .green .bg-brown:first-child td, .formulario .green .bg-brown:first-child td {
           padding: 5%; }
-    .price .green .bg-white, .clients .green .bg-white {
+    .price .green .bg-white, .clients .green .bg-white, .formulario .green .bg-white {
       background-color: white;
       color: black; }
-      .price .green .bg-white td, .clients .green .bg-white td {
+      .price .green .bg-white td, .clients .green .bg-white td, .formulario .green .bg-white td {
         padding: 3%; }
-    .price .green .bg-green, .clients .green .bg-green {
+    .price .green .bg-green, .clients .green .bg-green, .formulario .green .bg-green {
       background-color: #27AD60;
       font-size: 0.9em; }
-      .price .green .bg-green td, .clients .green .bg-green td {
+      .price .green .bg-green td, .clients .green .bg-green td, .formulario .green .bg-green td {
         padding: 5%; }
-      .price .green .bg-green span, .clients .green .bg-green span {
+      .price .green .bg-green span, .clients .green .bg-green span, .formulario .green .bg-green span {
         font-size: 3.8em; }
-    .price .green button, .clients .green button {
+    .price .green button, .clients .green button, .formulario .green button {
       background-color: #443E44;
       border: none;
       font-size: 1.2em;
@@ -247,7 +247,70 @@ header .navbar-default {
       padding: 3% 5%;
       margin: 15% 0%; }
 
-.clients .t-orange {
-  color: #E67E22; }
+.clients .parrafo {
+  color: #B0B2B4;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 400;
+  padding: 0% 20%;
+  margin: 5% 0% 2%; }
+  .clients .parrafo .t-orange {
+    color: #E67E22;
+    font-style: normal; }
+
+.formulario form {
+  margin: 4% auto;
+  width: 65%; }
+  .formulario form textarea {
+    height: 150px; }
+  .formulario form .btn-default {
+    background-color: #443E44;
+    border: none;
+    font-size: 1.2em;
+    padding: 1% 1.5%;
+    color: white; }
+  .formulario form p:last-child {
+    text-align: left; }
+
+.image {
+  background-image: url("../img/img-divider-img.jpg");
+  background-position: 30% 35%;
+  height: 20vh; }
+
+.social {
+  background-image: url("../img/img-divider-img.jpg");
+  background-size: cover;
+  background-position: 20% 10%;
+  height: 55vh;
+  padding-top: 2%; }
+  .social a {
+    font-size: 7em;
+    margin-right: 1.5%; }
+
+footer {
+  padding: 1% 0%; }
+  footer p {
+    font-size: 1.1em; }
+  footer .news .input-group-sm > .input-group-addon {
+    line-height: 0;
+    color: #E67E22; }
+  footer .news button {
+    background-color: #443E44;
+    border: none;
+    font-size: 1.2em;
+    padding: 1% 1.5%;
+    color: white;
+    font-size: 1.1em;
+    padding: 2% 3%;
+    margin-top: 6%; }
+  footer .last-row {
+    margin-top: 2%; }
+    footer .last-row p {
+      float: left;
+      color: #2C3E50; }
+      footer .last-row p a {
+        margin-left: 5px; }
+    footer .last-row .back {
+      float: right; }
 
 /*# sourceMappingURL=main.css.map */
